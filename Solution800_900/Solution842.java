@@ -42,11 +42,11 @@ package Solution800_900;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution843 {
+public class Solution842 {
 
 	public static void main(String[] args) {
 		List<Integer> splitIntoFibonacci = 
-				(new Solution843()).splitIntoFibonacci("1101111");
+				(new Solution842()).splitIntoFibonacci("1101111");
 		System.out.println(splitIntoFibonacci);
 	}
 	
