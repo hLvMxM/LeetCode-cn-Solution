@@ -9,7 +9,7 @@
 //必须在原数组上操作，不能拷贝额外的数组。
 //尽量减少操作次数。
 
-package Solution200_300;
+package Solution200_299;
 
 public class Solution283 {
 	

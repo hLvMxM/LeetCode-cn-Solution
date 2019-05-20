@@ -18,7 +18,7 @@
 //给定的面积不大于 10,000,000 且为正整数。
 //你设计的页面的长度和宽度必须都是正整数。
 
-package Solution400_500;
+package Solution400_499;
 
 public class Solution492 {
 	public static void main(String[] args) {

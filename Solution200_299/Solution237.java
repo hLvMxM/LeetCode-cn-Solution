@@ -1,6 +1,6 @@
-//请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点。
+//请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点�?
 //
-//现有一个链表 -- head = [4,5,1,9]，它可以表示为:
+//现有�?个链�? -- head = [4,5,1,9]，它可以表示�?:
 //
 //https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/237_example.png
 //
@@ -18,10 +18,10 @@
 //
 //说明:
 //
-//链表至少包含两个节点。
-//链表中所有节点的值都是唯一的。
-//给定的节点为非末尾节点并且一定是链表中的一个有效节点。
-//不要从你的函数中返回任何结果。
+//链表至少包含两个节点�?
+//链表中所有节点的值都是唯�?的�??
+//给定的节点为非末尾节点并且一定是链表中的�?个有效节点�??
+//不要从你的函数中返回任何结果�?
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,7 +31,7 @@
  * }
  */
 
-package Solution200_300;
+package Solution200_299;
 
 public class Solution237 {
 	public void deleteNode(ListNode node) {
@@ -68,8 +68,8 @@ class ListNode {
 	ListNode(int x) { val = x; }
 }
 
-//执行用时 : 1 ms, 在Delete Node in a Linked List的Java提交中击败了85.98% 的用户
-//内存消耗 : 36 MB, 在Delete Node in a Linked List的Java提交中击败了67.02% 的用户
+//执行用时 : 1 ms, 在Delete Node in a Linked List的Java提交中击败了85.98% 的用�?
+//内存消�?? : 36 MB, 在Delete Node in a Linked List的Java提交中击败了67.02% 的用�?
 
 
-// 题解：只给一个Node节点，由于肯定不是最后的节点，所以可以与后一位交换值，再删除后一位的节点
+// 题解：只给一个Node节点，由于肯定不是最后的节点，所以可以与后一位交换�?�，再删除后�?位的节点
