@@ -64,12 +64,15 @@ public class Solution669 {
     }
 }
 
+
 class TreeNode {
 	 int val;
 	 TreeNode left = null;
 	 TreeNode right = null;
 	 TreeNode(int x) { val = x; }
 }
+
+
 //题解：采用递归的方式，判断当前节点是否是在LR之间，然后对左右子节点完成相应操作。
 
 //执行用时 : 1 ms, 在Trim a Binary Search Tree的Java提交中击败了99.42% 的用户
